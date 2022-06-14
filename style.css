@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth; 
+}
+body {
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer
+}
+a {
+    color: black;
+}
+a:hover {
+    color: forestgreen;
+}
+.left-content ul {
+    padding: 0;
+}
+.left-content li {
+    list-style-type: none;
+    margin: 20px 0;
+    font-size: 18px;
+}
+header {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(255, 239, 148);
+}
+section {
+   padding: 0 0 10px 20px;
+}
+.left-content section {
+    padding: 0;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+i {
+    margin-right: 20px;
+}
+.contacts {
+    margin: 70px 0;
+}
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+section li {
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    vertical-align:bottom;
+    padding: 20px
+}
+.left-content {
+padding: 20px;
+background-color: rgb(255, 239, 148);
+}
+.profile{
+    width: 250px;
+    border-radius: 50%;
+}
+.content {
+    width: 750;
+    margin: 20px;
+}
+.logo {
+    width:80px
+}
+footer {
+    width: 960px;
+    background-color:rgb(255, 239, 148);
+    margin: 0px auto;
+}
+
+.gh {
+    position: relative;
+}
