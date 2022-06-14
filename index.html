@@ -27,6 +27,7 @@
             <h1>Vladislava Alexandrovna</h1>
             <h2>Junior FrontEnd developer</h2>
             <section class="contacts">
+                <h2>Сontacts</h2>
                 <ul>
                     <li><i class="fa-solid fa-mobile-screen"></i>+375445860499</li>
                     <li><i class="fa-solid fa-envelope"></i>vladislava96.96@mail.ru</li>
@@ -74,36 +75,38 @@
             <section id="code-examples">
                 <h2>Code examples</h2>
                 <p><i>Calculate BMI</i></p>
-                <code>
-                    <pre>
-                    function bmi(weight, height) {
+                <pre>
+                    <code>
+                        function bmi(weight, height) {
 
-                        let b = weight / (height ** 2);
-                    
-                        if (b &lt;= 18.5) return "Underweight";
-                        if (b &lt;= 25.0) return "Normal";
-                        if (b &lt;= 30.0) return "Overweight";
-                        if (b > 30) return "Obese"
-                    }
-                    </pre>
-                </code>
-                <p><i>Odd or Even?</i></p>
-                <code>
-                    <pre>
-                    function oddOrEven(array) {
-                        let result = array.reduce(function(sum,elem) {
-                        return sum + elem;
-                        }, 0);
-                    
-                        if (result % 2 == 0 || result == 0) {
-                        return 'even'
+                            let b = weight / (height ** 2);
+                        
+                            if (b &lt;= 18.5) return "Underweight";
+                            if (b &lt;= 25.0) return "Normal";
+                            if (b &lt;= 30.0) return "Overweight";
+                            if (b > 30) return "Obese"
                         }
-                        else {
-                        return 'odd'
-                        } 
-                    }
-                    </pre>
-                </code>
+                    </code>
+                </pre>
+                
+                <p><i>Odd or Even?</i></p>
+                <pre>
+                    <code>
+                        function oddOrEven(array) {
+                            let result = array.reduce(function(sum,elem) {
+                            return sum + elem;
+                            }, 0);
+                        
+                            if (result % 2 == 0 || result == 0) {
+                            return 'even'
+                            }
+                            else {
+                            return 'odd'
+                            } 
+                        }
+                    </code>
+                </pre>
+                
             </section>
             <section id="experience">
                 <h2>Experience</h2>
@@ -126,7 +129,7 @@
         <div class="container">
             <a href="https://github.com/vladislava96">My GitHub</a>
             <span>2022 г.</span>
-            <a href="https://rs.school/js/"><img src="rs_school_js.svg" class="logo"></a>  
+            <a href="https://rs.school/js/"><img src="rs_school_js.svg" class="logo" alt="Logo Rsshool"></a>  
         </div>
     </footer>
 </body>
